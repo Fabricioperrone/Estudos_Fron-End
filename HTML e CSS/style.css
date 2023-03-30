@@ -1,0 +1,23 @@
+body{
+	background-color:white;
+	font-family: Arial, sans-serif;
+	color: darkblue;
+}
+#main{
+	font-family: Times;
+	font-size: 14pt;
+	color: navy;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+td{
+	font-family: Verdada, sans-serif;
+	font-size: 16pt;
+	color: blue;
+	text-align: left;
+	border-style: solid;
+	border-color: grey;
+	border-width: medium;
+}
