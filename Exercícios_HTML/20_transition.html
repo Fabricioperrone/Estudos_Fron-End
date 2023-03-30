@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser
+renderizada -->
+<html lang="pt-br">
+    <head>
+        <title> Página de estrutura básica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Fabricio">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html, tecnologia">
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: orange;
+                
+                transition-property: width, height;
+                transition-duration: 1s, 3s;
+                transition-timing-function: cubic-bezier(.67,-0.38,.5,1.5),
+                linear;
+                transition-delay: 0s .8s;
+            }
+            div:hover{
+                width: 400px;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>estrutura básica</h1>
+        <div>1</div>
+    </body>
+</html>

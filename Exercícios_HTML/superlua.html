@@ -1,0 +1,116 @@
+<!DOCTYPE html><!--HTML 5 -->
+<head>
+	<title>HTML 5 & jQuery</title>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script><!--JQUERY -->
+
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		main{
+			background-color: #ccc;
+			width: 1200px;
+			margin: auto;
+			margin-top: 20px;
+			padding-top: 10px;
+		}
+		header{
+			background-color: #fff;
+			width: 1200px;
+			height: 80px;
+			color: blue;
+			text-align: center;
+			font-size: x-large;
+		}
+		nav{
+			background-color: #fff;
+			width: 1180px;
+			height: 30px;
+			margin-top: 10px;
+			text-align: center;
+			font-size: larger;
+			padding: 10px;
+			font-weight: bold;
+		}
+		section{
+			background: #fff;
+			width: 900px;
+			height: 500px;
+			margin-top: 10px;
+			text-align: center;
+			float: left;
+		}
+		aside{
+			background-color: #fff;
+			width: 270px;
+			height: 480px;
+			margin-top: 10px;
+			float: left;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			font-size: large;
+			padding:10px;
+			font-weight: bold;
+
+		}
+		footer{
+			background-color: #fff;
+			width: 1200px;
+			height: 60px;
+			clear: both;
+			text-align: center;
+		}
+		.verde{
+			color:green;
+			background-color: yellow;
+		}
+		#texto{
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Super Lua</h1>
+		</header>
+		<nav>
+			<h2>Maior superlua do século poder ser observada nesta segunda-feira</h2>
+		</nav>
+		<article>
+			<section>
+				<br/><figure><img src="https://www.olharconceito.com.br/imgsite/noticias/lua(1).jpg" alt="Descrição da figura" /></figure>
+			</section>
+		</article>
+		<aside>
+			<p id="texto">A segnda-feira pré feriado de Proclamação (14.11) reserva uma bela "surpresa" ao amantes do universo. <br>
+			A maior superlua dos últmimos 70 anos poderá ser observda "a olho nu" por amantes dos astros ou mesmo por curiosos.</p>
+		</aside>
+		<footer>
+			<br/>
+			&nbsp;<button id="titulo" style="font-weight: bold;">Muda a Cor do Título</button>
+			&nbsp;<button id="luasai" style="font-weight: bold;">Esconde a lua</button>
+			&nbsp;<button id="luavolta" style="font-weight: bold;">Mostra a lua</button>
+			&nbsp;<button id="anima" style="font-weight: bold;">Anima o texto</button>
+		</footer>
+	</main>
+	<!--JQUERY -->
+	<script>
+	$(document).ready(function(){
+		$("#titulo").click(function(){
+			$("header").addClass("verde");
+		})
+		$("#luasai").click(function(){
+			$("figure").hide();
+		})
+		$("#luavolta").click(function(){
+			$("figure").fadeIn("slow");
+		})
+		$("#anima").click(function(){
+			$("#texto").animate({top:'120px'});
+		})
+	})
+	</script>
+</body>
+</html>

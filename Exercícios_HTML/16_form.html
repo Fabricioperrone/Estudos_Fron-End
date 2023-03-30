@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser
+renderizada -->
+<html lang="pt-br">
+    <head>
+        <title> Página de estrutura básica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Fabricio">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html, tecnologia">
+        
+   
+    </head>
+    <body>
+        <h1>Exemplo de formulário</h1>
+        
+        <form action="#" method="POST" class="formLogin">
+            
+           <fieldset>
+                
+               <legend>Dados pessoais</legend>
+               
+               <label>Email</label>
+               <input type="email" required placeholder="digite um email válido">
+               <br>
+               <label>numero de filhos</label>
+               <input type="number" min="0" max="1000" step="1.5">
+               
+               <br>
+               <label>Nascimento</label>
+               <input type="date" min="2018-01-30" max="2138-1-30">
+               
+               <P>Sexo:</P>
+               <label> 
+                   <input type="radio"name="sexo" value="M">
+               Masculino
+               </label>
+               
+              <label> 
+                  <input type="radio" name="sexo" value="F">
+               Feminino
+               </label>
+               
+               <br>
+              
+               
+               <label>Estado</label>
+               <select name="estado">
+                   <option value="0">Selecione</option>
+                   <option value="SP">São Paulo</option>
+                   <option value="RJ">Rio de Janeiro</option>
+                   <option value="RS">Rio Grande do Sul</option>
+                   <option value="Terra Média">Mordor</option>
+               
+               </select>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend>Área de interesse</legend>
+                
+                <label><input type="checkbox" name="html" value="html">HTML</label>
+                <label><input type="checkbox" name="cssl" value="css">CSS</label>
+                <label><input type="checkbox" name="JS" value="JS">Javascript</label>
+                
+            
+            </fieldset>
+            <br>
+        
+            <legend>Mensagem</legend>
+            <textarea style="resize: none" name="msg" cols="30" rows="10" maxlength="5"></textarea>
+            
+            <textarea style="resize: none" name="contrato" cols="30" rows="10" readonly >Aqui entra o texto do contrato 
+                que precisa ser aceito.Desestabilizou as oportunidades dos pretos, pardos, miscigenados, indígenas e autoproclamados cujos fenótipos nunca serão sobrepujados em detrimento dos negros. Corrompeu as descontruções das mulheres trans para proveito proprio.
+               </textarea>
+               <br>
+             <label>
+                    <input type="checkbox" checked>Li e aceito </label>
+            <br>
+            <input type="range" min="0" max="10" step=".2">
+            <br>
+            <input type="time">
+            <br>
+            <input type="color">
+            <br>
+            
+            <select size="5"multiple>
+                <option>Opção1</option>
+                <option>Opção2</option>
+                <option>Opção3</option>
+                <option>Opção4</option>
+                <option>Opção5</option>
+              
+            </select>
+            
+            <br>
+            
+            <br>
+                <input type="submit" value="mandar">
+                <input type="button" value="button">
+                <input type="reset" value="reset">
+               
+              
+        </form>
+    </body>
+</html>
