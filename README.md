@@ -1,4 +1,3 @@
-# bt_modo_escuro
-Criando botão modo dark
-# Estudos_Fron-End
-# Estudos_Fron-End
+# Calculadora_basica
+# exercício de html, css e js 
+#consolidacao de conhecimentos
