@@ -6,4 +6,4 @@ Projeto Strata:
 https://sensational-crostata-3d6997.netlify.app/#
 
 Projeto Music DOT:
-https://app.netlify.com/sites/admirable-haupia-9a08e9/overview
+https://admirable-haupia-9a08e9.netlify.app/
